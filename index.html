@@ -1,0 +1,117 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src=""></script>
+    </head>
+    <body>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-sm-12 col-md-10 col-lg-10 col-lg-offset-1 col-md-offset-1 ">
+		    		<h1>Flexbox Quick Start Guide</h1>
+		    		<p>Flexbox is a css display property that has been gaining a lot of attention as Responsive Web Design becoming a popular practice among web designers. You can see examples of Flexbox on sites such as <a href="https://projects.invisionapp.com/d/login">InVision.com</a></p>
+		    		<p>Parent elements can be declared as Flex by assigning <code>display: flex</code> , or <code>inline-flex</code>
+		    		<p>In this example, we are putting <code>justify-content: center</code> to center align all of the child elements. Think of it as the equivilent of adding <code>margin: auto</code> <code>text-align: center</code>
+		    		<p>To learn more about Flex Box visit <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Tricks </a>
+					<div class="container-1">
+
+						<h2>Flex - Justify Center</h2>
+						<p></p>
+						<div class="example">
+							<pre>
+.container-1 {
+	display: flex;
+	justify-content: center
+}
+.grid-1 {
+	background: tomato;
+	padding: 5px;
+	width: 200px;
+	height: 150px;
+	line-height: 150px;
+	color: white;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+}
+							</pre>
+						</div>	
+						
+						<div class="grid-1 grid">1</div>
+						<div class="grid-1 grid">2</div>
+						<div class="grid-1 grid">3</div>
+						
+					</div>
+
+					<div class="container-2">
+						<h2>Flex - Justify Center w/Margin Auto</h2>
+						<div class="example">
+							<pre>
+.container-2 {
+	display: flex;
+	justify-content: center
+}
+.grid-2 {
+	margin: 10px auto;
+	background: Darkorange;
+	padding: 5px;
+	width: 200px;
+	height: 150px;
+	line-height: 150px;
+	color: white;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+}
+							</pre>
+						</div>
+			
+						<div class="grid-2 grid">1</div>
+						<div class="grid-2 grid">2</div>
+						<div class="grid-2 grid">3</div>
+					</div>
+
+
+					<div class="container-3">
+						<h2>Flex - Vertically Align Center</h2>
+						<div class="example">
+							<pre>
+.container-vertically-centered {
+	display: flex;
+	justify-content: center;
+	height: 400px;
+	width: 400px;
+	background: burlywood;
+}
+.grid.vertically-centered {
+	margin: auto;
+	padding: 5px;
+	font-size: 50px;
+
+}
+							</pre>
+						</div>
+			
+						<div class="container-vertically-centered">
+							<div class="grid vertically-centered">1</div>
+						</div>
+
+					</div>
+
+
+				</div>
+			</div>
+    	</div>
+    	
+    </body>
+</html>

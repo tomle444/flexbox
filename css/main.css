@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	background-color: #f1f1f1;
+}
+
+[class*="container-"], [class^="container-"] {
+	display: flex; /* or inline-flex */
+	flex-direction:  row;  /*row | row-reverse | column | column-reverse */
+	/*flex-wrap: wrap;*/
+	justify-content: center; /* flex-start | flex-end | center | space-between | space-around */
+	flex-flow: row wrap;
+	margin: 40px auto 80px;
+}
+
+
+.container {
+	background-color: #fff;
+}
+
+
+
+.example {
+	flex: 1 100%;
+	text-align: justify;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+
+.grid-1 {
+	margin: 10px;
+	background: tomato;
+	padding: 5px;
+	width: 200px;
+	height: 150px;
+	line-height: 150px;
+	color: white;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+}
+.grid-2 {
+	margin: 10px auto;
+	background: Darkorange;
+	padding: 5px;
+	width: 200px;
+	height: 150px;
+	line-height: 150px;
+	color: white;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+}
+
+.container-vertically-centered {
+	display: flex;
+	justify-content: center;
+	height: 400px;
+	width: 400px;
+	background: burlywood;
+}
+
+.grid.vertically-centered {
+	margin: auto;
+}
+
+
+.grid {
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+	font-size: 50px;
+}
+
